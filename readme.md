@@ -7,8 +7,8 @@ This application created with C# programming language that run with .NET core 2.
 2. Install .NET Core 2.1 SDK 
 3. Unzip userhierarchies.zip & scheduleoverlap.zip
 4. Open terminal and go to the unzip folder path 
-5. Example: "cd /Users/hendritjiptowibowo/Documents/Challange/userhierarchies" (type without "")
-5. To run the application type "dotnet run" (type without "")
+5. Example: 'cd /Users/hendritjiptowibowo/Documents/Challange/userhierarchies' (type without "")
+5. To run the application type 'dotnet run' (type without "")
 
 ## To view the source code and modify input please follow the instruction to view the code 
 With VisualStudioCode 

@@ -29,3 +29,15 @@ With Sublime
 4. Modify file 
 8. Save
 9. Run with `dotnet run` on terminal
+
+## Developer notes 
+ `User Hierarchies challange`
+* De-serialize json to object
+* First is to find role id from user id
+* Recursive iteration needed as the goal is to find all the children under that roles. 
+* Stored result from Recursive and find user detail 
+* Serialize object to json
+
+`Overlapping Schedule`
+* Check if the user id is the same user id 
+* Create an function to check the over lapping. 2nd start time bigger than 1st start time AND 2nd start time smaller than 1st finish time <- if meet this criteria return true

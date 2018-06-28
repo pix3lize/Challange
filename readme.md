@@ -7,8 +7,8 @@ This application created with C# programming language that run with .NET core 2.
 2. Install .NET Core 2.1 SDK 
 3. Unzip userhierarchies.zip & scheduleoverlap.zip
 4. Open terminal and go to the unzip folder path 
-5. Example: 'cd /Users/hendritjiptowibowo/Documents/Challange/userhierarchies' (type without "")
-5. To run the application type 'dotnet run' (type without "")
+5. Example: `cd /Users/hendritjiptowibowo/Documents/Challange/userhierarchies` (type without "")
+5. To run the application type `dotnet run` (type without "")
 
 ## To view the source code and modify input please follow the instruction to view the code 
 With VisualStudioCode 
@@ -17,10 +17,10 @@ With VisualStudioCode
 3. Please download C https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp 
 4. Install C# extention  
 5. VisualStudioCode is a native applicaiton on Mac OS - double click 
-6. Once the application is opened select File->Open select project folder 
+6. Once the application is opened select `File->Open` select project folder 
 7. Modify file 
 8. Save
-9. Run with "dotnet run"
+9. Run with `dotnet run` on terminal
 
 With 
 1. Please download SubLime text editor https://download.sublimetext.com/Sublime%20Text%20Build%203176.dmg 
@@ -28,4 +28,4 @@ With
 3. Open program.cs from each foler folder 
 4. Modify file 
 8. Save
-9. Run with "dotnet run"
+9. Run with `dotnet run` on terminal

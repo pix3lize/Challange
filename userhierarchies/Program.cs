@@ -113,7 +113,7 @@ namespace userhierarchies
                 }
             }
 
-            #region collapse
+            #region Collapse
 
             //Array of an object for our search user result 
             List<User> resultUser = new List<User>();

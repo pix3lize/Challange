@@ -21,7 +21,7 @@ namespace userhierarchies
             roleList = setRoles("roles.json");
             userList = setUsers("users.json");
 
-            // Calling get sub ordinate function to return json output
+            // Calling get sub ordinate function to return json output for subordinate 3
             Console.WriteLine("");
             Console.WriteLine("Testing subordinate 3");
             Console.WriteLine(getSubOrdinates(3) );
@@ -34,10 +34,23 @@ namespace userhierarchies
                 Console.WriteLine("Testing FAILED"+ "\r\n");
             }
             
+            // Calling get sub ordinate function to return json output for subordinate 1
             Console.WriteLine("Testing subordinate 1 : ");
             Console.WriteLine(getSubOrdinates(1));
 
             if(getSubOrdinates(1) == @"[{""Id"":2,""Name"":""Emily Employee"",""Role"":4},{""Id"":3,""Name"":""Sam Supervisor"",""Role"":3},{""Id"":4,""Name"":""Mary Manager"",""Role"":2},{""Id"":5,""Name"":""Steve Trainer"",""Role"":5}]")
+            {
+                Console.WriteLine("Testing SUCCESS"+ "\r\n");
+            }
+            else 
+            {
+                Console.WriteLine("Testing FAILED"+ "\r\n");
+            }
+
+            // Calling get sub ordinate function to return json output for subordinate 4
+            Console.WriteLine("Testing subordinate 4");
+            Console.WriteLine(getSubOrdinates(4) );
+            if(getSubOrdinates(4) == @"[{""Id"":2,""Name"":""Emily Employee"",""Role"":4},{""Id"":3,""Name"":""Sam Supervisor"",""Role"":3},{""Id"":5,""Name"":""Steve Trainer"",""Role"":5}]")
             {
                 Console.WriteLine("Testing SUCCESS"+ "\r\n");
             }

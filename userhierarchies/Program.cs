@@ -18,14 +18,33 @@ namespace userhierarchies
         static void Main(string[] args)
         {
             // Populate object from text file, this input could be http request 
-            roleList = setRoles("roles.txt");
-            userList = setUsers("users.txt");
+            roleList = setRoles("roles.json");
+            userList = setUsers("users.json");
 
             // Calling get sub ordinate function to return json output
-            Console.WriteLine(getSubOrdinates(3));
+            Console.WriteLine("");
+            Console.WriteLine("Testing subordinate 3");
+            Console.WriteLine(getSubOrdinates(3) );
+            if(getSubOrdinates(3) == @"[{""Id"":2,""Name"":""Emily Employee"",""Role"":4},{""Id"":5,""Name"":""Steve Trainer"",""Role"":5}]")
+            {
+                Console.WriteLine("Testing SUCCESS"+ "\r\n");
+            }
+            else 
+            {
+                Console.WriteLine("Testing FAILED"+ "\r\n");
+            }
+            
+            Console.WriteLine("Testing subordinate 1 : ");
             Console.WriteLine(getSubOrdinates(1));
 
-            
+            if(getSubOrdinates(1) == @"[{""Id"":2,""Name"":""Emily Employee"",""Role"":4},{""Id"":3,""Name"":""Sam Supervisor"",""Role"":3},{""Id"":4,""Name"":""Mary Manager"",""Role"":2},{""Id"":5,""Name"":""Steve Trainer"",""Role"":5}]")
+            {
+                Console.WriteLine("Testing SUCCESS"+ "\r\n");
+            }
+            else 
+            {
+                Console.WriteLine("Testing FAILED"+ "\r\n");
+            }
             //Console.WriteLine("Hello World!");
         }
 

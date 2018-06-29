@@ -31,7 +31,7 @@ With Sublime
 9. Run with `dotnet run` on terminal
 
 ## Developer notes 
- `User Hierarchies challange`
+`User Hierarchies challange`
 * De-serialize json to object
 * First is to find role id from user id
 * Recursive iteration needed as the goal is to find all the children under that roles. 
@@ -41,3 +41,9 @@ With Sublime
 `Overlapping Schedule`
 * Check if the user id is the same user id 
 * Create an function to check the over lapping. 2nd start time bigger than 1st start time AND 2nd start time smaller than 1st finish time <- if meet this criteria return true
+
+## Unit testing for User Hierarchies challange 
+A new project is created for user hierarchies challange 
+* Open terminal and go to `/UserHierarchy/User.Tests` folder
+* Example: `cd /Users/hendritjiptowibowo/Documents/Challange/UserHierarchy/User.Tests` 
+* To test the application type `dotnet test`

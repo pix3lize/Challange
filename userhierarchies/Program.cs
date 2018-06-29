@@ -175,7 +175,10 @@ namespace userhierarchies
         // Function to write an error code 
         public static void writeErrorLog(string message)
         {
-            StreamWriter sw = new StreamWriter("error.log");
+            //Write the error log with append valued to true
+            StreamWriter sw = new StreamWriter("error.log", true);
+
+            //Writing the error message with the timestamp
             sw.WriteLine(DateTime.Now.ToString() + " - " + message);
             sw.Close();
         }

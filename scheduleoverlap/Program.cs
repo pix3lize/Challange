@@ -93,29 +93,38 @@ namespace scheduleoverlap
 
         }
 
+        //Check the overlapping timeshedule 
         public static bool isOverlapping(TimeSchedule ts1, TimeSchedule ts2)
         {
+            //Check if both schedule using same employee id
             if (ts1.Id == ts2.Id)
             {
+                //To check if second schedule start time higher than first schedule start time 
+                // and second schedule start time lower than first schedule finish time
                 if ((ts2.StartTime >= ts1.StartTime) && (ts2.StartTime <= ts1.EndTime))
                 {
                     return true;
                 }
+                //To check if first schedule start time higher than second schedule start time 
+                // and first schedule start time lower than second schedule finish time
                 else if ((ts1.StartTime >= ts2.StartTime) && (ts1.StartTime <= ts2.EndTime))
                 {
                     return true; 
                 }
+                //No overlapping return false 
                 else
                 {
                     return false;
                 }
             }
+            //Diffrent employee id return false
             else
             {
                 return false;
             }
         }
 
+        //Initialise time schedule object from json file
         public static TimeSchedule getSchedule(string json)
         {
             TimeSchedule timeS = new TimeSchedule();

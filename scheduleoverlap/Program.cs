@@ -48,7 +48,7 @@ namespace scheduleoverlap
             ""EndTime"": 1530075600
             }";
 
-            // sample data for same employee id 2 schedule for 26 June 2018 09:00 - 17:00
+            // sample data for same employee id 2 schedule for 27 June 2018 09:00 - 17:00
             string json3 = @"{
             ""Id"": 2,
             ""Employee"": 1,

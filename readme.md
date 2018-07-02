@@ -42,8 +42,13 @@ With Sublime
 * Check if the user id is the same user id 
 * Create an function to check the over lapping. 2nd start time bigger than 1st start time AND 2nd start time smaller than 1st finish time <- if meet this criteria return true
 
-## Unit testing for User Hierarchies challange 
+## Unit testing  
 A new project is created for user hierarchies challange 
 * Open terminal and go to `/UserHierarchy/User.Tests` folder
 * Example: `cd /Users/hendritjiptowibowo/Documents/Challange/UserHierarchy/User.Tests` 
+* To test the application type `dotnet test`
+
+A new project is created for schedule overlap challange 
+* Open terminal and go to `/SchedOverlap/Schedule.Tests` folder
+* Example: `cd /Users/hendritjiptowibowo/Documents/Challange/SchedOverlap/Schedule.Tests` 
 * To test the application type `dotnet test`

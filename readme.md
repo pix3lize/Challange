@@ -7,7 +7,7 @@ This application created with C# programming language that run with .NET core 2.
 2. Install .NET Core 2.1 SDK 
 3. Download this github package
 4. Open terminal and go to `userhierarchies` and `scheduleoverlap` folder
-5. Example: `cd /Users/hendritjiptowibowo/Documents/Challange/userhierarchies` (type without "")
+5. Example: `cd /Users/username/Documents/Challange/userhierarchies` (type without "")
 5. To run the application type `dotnet run` on terminal 
 
 ## To view the source code and modify input please follow the instruction to view the code 
@@ -45,10 +45,10 @@ With Sublime
 ## Unit testing  
 A new project is created for user hierarchies challange 
 * Open terminal and go to `/UserHierarchy/User.Tests` folder
-* Example: `cd /Users/hendritjiptowibowo/Documents/Challange/UserHierarchy/User.Tests` 
+* Example: `cd /Users/username/Documents/Challange/UserHierarchy/User.Tests` 
 * To test the application type `dotnet test`
 
 A new project is created for schedule overlap challange 
 * Open terminal and go to `/SchedOverlap/Schedule.Tests` folder
-* Example: `cd /Users/hendritjiptowibowo/Documents/Challange/SchedOverlap/Schedule.Tests` 
+* Example: `cd /Users/username/Documents/Challange/SchedOverlap/Schedule.Tests` 
 * To test the application type `dotnet test`
